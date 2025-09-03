@@ -1,3 +1,7 @@
+#!/bin/bash -e
+# Set up Pixi as well as its environment variables and aliases
+# Usage: . setup_pixi.sh [PIXI_DIR] [PIXI_INSTALL]
+
 PIXI_DIR="${1:-.pixi}"
 PIXI_INSTALL="${2:--a}"
 

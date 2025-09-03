@@ -1,3 +1,7 @@
+#!/bin/bash -e
+# Set up Pixi global tools
+# Usage: . setup_pixi_global.sh
+
 clean-pixi-global
 pixi g i -e gnu gcc gdb gfortran gxx make
 pixi g i -e tools pip python=3.13
