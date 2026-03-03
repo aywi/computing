@@ -8,7 +8,7 @@ pixi g i -e tools pip python=3.13
 pixi g a -e tools byobu --expose byobu
 pixi g a -e tools cmake --expose ccmake --expose cmake --expose cpack --expose ctest
 pixi g a -e tools conda conda-recipe-manager conda-smithy --expose conda
-pixi g a -e tools git git-lfs --expose git --expose gitk
+pixi g a -e tools git git-lfs --expose git --expose git-lfs --expose gitk
 pixi g a -e tools gojq --expose gojq
 pixi g a -e tools htop --expose htop
 pixi g a -e tools jaq --expose jaq
